@@ -1,0 +1,23 @@
+version: '2.1'
+
+services:
+  etcd: &defaults
+    image: jumanjiman/etcd
+    build:
+      context: src/
+      args:
+        - BUILD_DATE
+        - VCS_REF
+        - VERSION
+        - CI_BUILD_URL
+    ports:
+      - "2379:2379/tcp"
+    read_only: true
+    cap_drop:
+      - all
+    pids_limit: 10
+    cpu_shares: 512
+    mem_limit: 64M
+    shm_size: 32M
+    stdin_open: true
+    tty: true

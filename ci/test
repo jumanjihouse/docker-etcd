@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+set -u
+. ci/vars
+
+docker-compose up -d
+bats test/*.bats
+#docker-compose down
