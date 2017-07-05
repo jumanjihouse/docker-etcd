@@ -39,11 +39,12 @@ We use [BATS](https://github.com/sstephenson/bats) to run the test harness.
 Output from BATS resembles:
 
     ✓ image exists
+    ✓ tagged image exists
     ✓ etcd is running
     ✓ etcd is ready to serve client requests
     - ci-build-url label is present (skipped: This test only runs on circleci)
 
-    4 tests, 0 failures, 1 skipped
+    5 tests, 0 failures, 1 skipped
 
 
 License

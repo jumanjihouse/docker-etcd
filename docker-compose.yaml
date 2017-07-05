@@ -21,3 +21,8 @@ services:
     shm_size: 32M
     stdin_open: true
     tty: true
+
+  etcd_tagged:
+    <<: *defaults
+    image: jumanjiman/etcd:${TAG}
+    ports: []

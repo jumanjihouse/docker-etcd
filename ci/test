@@ -3,6 +3,6 @@ set -e
 set -u
 . ci/vars
 
-docker-compose up -d
+docker-compose up -d etcd
 bats test/*.bats
 #docker-compose down
