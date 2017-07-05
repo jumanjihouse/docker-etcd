@@ -7,6 +7,12 @@ Image:    https://registry.hub.docker.com/u/jumanjiman/etcd/<br/>
 Upstream: https://github.com/coreos/etcd/<br/>
 Package:  https://pkgs.alpinelinux.org/packages?name=etcd<br/>
 
+[![Download size](https://images.microbadger.com/badges/image/jumanjiman/etcd.svg)](http://microbadger.com/images/jumanjiman/etcd "View on microbadger.com")&nbsp;
+[![Version](https://images.microbadger.com/badges/version/jumanjiman/etcd.svg)](http://microbadger.com/images/jumanjiman/etcd "View on microbadger.com")&nbsp;
+[![Source code](https://images.microbadger.com/badges/commit/jumanjiman/etcd.svg)](http://microbadger.com/images/jumanjiman/etcd "View on microbadger.com")&nbsp;
+[![Docker Registry](https://img.shields.io/docker/pulls/jumanjiman/etcd.svg)](https://registry.hub.docker.com/u/jumanjiman/etcd/)&nbsp;
+[![CircleCI](https://circleci.com/gh/jumanjihouse/docker-etcd.svg?style=svg)](https://circleci.com/gh/jumanjihouse/docker-etcd 'View CI builds')
+
 Docker tags:
 
 * optimistic: `latest`
