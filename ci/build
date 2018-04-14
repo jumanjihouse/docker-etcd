@@ -3,7 +3,7 @@ set -e
 set -u
 
 cat >ci/vars <<-EOF
-export VERSION=3.2.1-r0
+export VERSION=3.2.8-r0
 export BUILD_DATE=$(date +%Y%m%dT%H%M)
 export VCS_REF=$(git rev-parse --short HEAD)
 export TAG=\${VERSION}_\${BUILD_DATE}_git_\${VCS_REF}
