@@ -40,9 +40,27 @@ https://github.com/jumanjihouse/docker-puppet/
 Build and test
 --------------
 
-We use circleci to build, test, and publish the images to Docker hub.
-We use [BATS](https://github.com/sstephenson/bats) to run the test harness.
-Output from BATS resembles:
+The test harness requires:
+
+* Python and the `pip` command
+* [BATS](https://github.com/bats-core/bats-core)
+
+Output from `ci/test` resembles:
+
+    [yamllint] yamllint..........................................................................Passed
+    [check-added-large-files] Check for added large files........................................Passed
+    [check-case-conflict] Check for case conflicts...............................................Passed
+    [check-executables-have-shebangs] Check that executables have shebangs.......................Passed
+    [check-symlinks] Check for broken symlinks...............................(no files to check)Skipped
+    [check-vcs-permalinks] Check vcs permalinks..................................................Passed
+    [detect-private-key] Detect Private Key......................................................Passed
+    [forbid-crlf] CRLF end-lines checker.........................................................Passed
+    [forbid-tabs] No-tabs checker................................................................Passed
+    [forbid-binary] Forbid binaries..........................................(no files to check)Skipped
+    [git-check] Check for conflict markers and core.whitespace errors............................Passed
+    [git-dirty] Check if the git tree is dirty...................................................Passed
+    [shellcheck] Test shell scripts with shellcheck..............................................Passed
+    [shfmt] Check shell style with shfmt.........................................................Passed
 
     ✓ image exists
     ✓ tagged image exists
