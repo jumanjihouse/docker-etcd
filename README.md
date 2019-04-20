@@ -1,4 +1,5 @@
-## Overview
+Overview
+========
 
 etcd server based on Alpine Linux
 
@@ -7,11 +8,11 @@ Image:    https://registry.hub.docker.com/u/jumanjiman/etcd/<br/>
 Upstream: https://github.com/coreos/etcd/<br/>
 Package:  https://pkgs.alpinelinux.org/packages?name=etcd<br/>
 
-[![Download size](https://images.microbadger.com/badges/image/jumanjiman/etcd.svg)](http://microbadger.com/images/jumanjiman/etcd "View on microbadger.com")&nbsp;
-[![Version](https://images.microbadger.com/badges/version/jumanjiman/etcd.svg)](http://microbadger.com/images/jumanjiman/etcd "View on microbadger.com")&nbsp;
-[![Source code](https://images.microbadger.com/badges/commit/jumanjiman/etcd.svg)](http://microbadger.com/images/jumanjiman/etcd "View on microbadger.com")&nbsp;
+[![Download size](https://images.microbadger.com/badges/image/jumanjiman/etcd.svg)](http://microbadger.com/images/jumanjiman/etcd)&nbsp;
+[![Version](https://images.microbadger.com/badges/version/jumanjiman/etcd.svg)](http://microbadger.com/images/jumanjiman/etcd)&nbsp;
+[![Source code](https://images.microbadger.com/badges/commit/jumanjiman/etcd.svg)](http://microbadger.com/images/jumanjiman/etcd)&nbsp;
 [![Docker Registry](https://img.shields.io/docker/pulls/jumanjiman/etcd.svg)](https://registry.hub.docker.com/u/jumanjiman/etcd/)&nbsp;
-[![CircleCI](https://circleci.com/gh/jumanjihouse/docker-etcd.svg?style=svg)](https://circleci.com/gh/jumanjihouse/docker-etcd 'View CI builds')
+[![CircleCI](https://circleci.com/gh/jumanjihouse/docker-etcd.svg?style=svg)](https://circleci.com/gh/jumanjihouse/docker-etcd)
 
 Docker tags:
 
@@ -62,10 +63,10 @@ Output from `ci/test` resembles:
     [shellcheck] Test shell scripts with shellcheck..............................................Passed
     [shfmt] Check shell style with shfmt.........................................................Passed
 
-    ✓ image exists
-    ✓ tagged image exists
-    ✓ etcd is running
-    ✓ etcd is ready to serve client requests
+    ok image exists
+    ok tagged image exists
+    ok etcd is running
+    ok etcd is ready to serve client requests
     - ci-build-url label is present (skipped: This test only runs on circleci)
 
     5 tests, 0 failures, 1 skipped

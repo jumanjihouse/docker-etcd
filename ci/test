@@ -4,7 +4,7 @@ set -u
 . ci/vars
 . ci/bootstrap
 
-pre-commit run --all-files --verbose
+pre-commit run --all-files
 
 docker-compose up -d etcd
 bats test/*.bats
